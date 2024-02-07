@@ -13,7 +13,7 @@ val generativeModel = GenerativeModel(
     apiKey = BuildConfig.apiKey
 )
 
-val cookieImage: Bitmap = // ...
+//val cookieImage: Bitmap = // ...
 val inputContent = content() {
   image(cookieImage)
   text("Does this look store-bought or homemade?")

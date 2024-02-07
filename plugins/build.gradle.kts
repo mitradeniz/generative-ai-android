@@ -53,6 +53,7 @@ gradlePlugin {
 }
 
 dependencies {
+    implementation("com.google.ai.client.generativeai:generativeai:<version>")
     implementation("com.android.tools.build:gradle:8.1.3")
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.22")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
